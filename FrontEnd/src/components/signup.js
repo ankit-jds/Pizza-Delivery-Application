@@ -24,10 +24,12 @@ function SignUpForm() {
     setUser({ ...user, [name]: value });
   };
 
-  // Postdata is function to send the the signup details to the backend.
-  const PostData = async (e) => {
+  let navigate = useNavigate();
+
+  // Postdata is function to send the signup details to the backend.
+  const PostData = async (e) => 
+  {
     e.preventDefault();
-    let navigate = useNavigate();
 
     const {
       first_name,

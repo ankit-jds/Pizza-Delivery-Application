@@ -14,7 +14,7 @@ const PizzaCard = ({ pizza_image_path, pizza_name, pizza_price }) => {
         <div id='image' className='w-full px-4'>
           <img
             src={pizza_image_path}
-            className='border-1 border-black w-28 h-28 m-auto'></img>
+            className='border-1 border-red border-3 w-28 h-28 m-auto'></img>
         </div>
         <div className='w-full px-3 pt-1 pb-2'>
           <h1 className='font-bold'>{pizza_name}</h1>
